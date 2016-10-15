@@ -39,7 +39,7 @@
 			) );
 			?>
 			<div class="readmore">
-				<a class="post-readmore float-r" href="<?php echo get_permalink(); ?>"><?php esc_attr_e('READ MORE', 'centilium'); ?></a>
+				<a class="post-readmore float-r" href="<?php echo get_permalink(); ?>"><?php esc_attr_e('עוד...', 'centilium'); ?></a>
 			</div>
 		</div>
 		
@@ -85,7 +85,7 @@
 				) );
 				?>
 				<div class="readmore">
-					<a class="post-readmore float-r" href="<?php echo get_permalink(); ?>"><?php esc_attr_e('READ MORE', 'centilium'); ?></a>
+					<a class="post-readmore float-r" href="<?php echo get_permalink(); ?>"><?php esc_attr_e('עוד...', 'centilium'); ?></a>
 				</div>
 			</div>
 	</div>

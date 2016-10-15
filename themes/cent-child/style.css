@@ -24,11 +24,7 @@ body
     float:right;
 
 }
-.mobile_search
-{
 
-    display:none;
-}
 
 div.logo
 {
@@ -51,4 +47,23 @@ div.logo
 
     font-weight:600;
     
+}
+
+.bwg_slideshow_image_wrap_0
+{
+
+    margin:0 auto;
+}
+h1.widget-title
+{
+    text-align:center;
+}
+.fa-chevron-right,.fa-chevron-left
+{
+    float:left;
+    padding-top:4px;
+}
+div.nav-next a,div.nav-previous a
+{
+    max-width:110px;
 }

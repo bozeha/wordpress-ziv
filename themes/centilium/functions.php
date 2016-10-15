@@ -271,10 +271,16 @@ if ( ! function_exists( 'centilium_next_prev_post' ) ) {
 function centilium_next_prev_post() { ?>
 	<div class="next_prev_post">
 		<?php 
-			previous_post_link( '<div class="nav-previous"> %link</div>', '<i class="fa fa-chevron-left"></i>'. __('Previous Post','centilium'));
-			next_post_link( '<div class="nav-next">%link</div>', __('Next Post','centilium'). '<i class="fa fa-chevron-right"></i>' );
+		/*	previous_post_link( '<div class="nav-previous"> %link</div>', '<i class="fa fa-chevron-left"></i>'. __('חזור','centilium'));*/
+
+			next_post_link( '<div class="nav-next">%link</div>', __('לפוסט הבאה','centilium'). '<i class="fa fa-chevron-right"></i>' );
 		?>
-	</div><!-- .next_prev_post -->
+		
+		<div class="nav-previous"><a href="<?php echo home_url();?>">חזור<i class="fa fa-chevron-left"></i></a></div>
+	</div>
+
+<!-- .next_prev_post -->
+
 <?php }                 
 }
 
