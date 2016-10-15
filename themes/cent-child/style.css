@@ -1,0 +1,54 @@
+/*
+ Theme Name:   centilium-child
+ Theme URI:    http://www.wpbeginner.com/
+ Description:  centilium child theme 
+ Author:       WPBeginner
+ Author URI:   http://www.wpbeginner.com
+ Template:     centilium
+ Version:      1.0.0
+*/
+
+@import url("../centilium/style.css");
+
+
+
+/* =Theme customization starts here*/
+
+body
+{
+    direction:rtl;
+
+}
+#main
+{
+    float:right;
+
+}
+.mobile_search
+{
+
+    display:none;
+}
+
+div.logo
+{
+    background-image: url(images/back-image.jpg);
+    border-radius: 3px;
+    border: 2px solid;
+    position: absolute;
+    top: 20px;
+    padding: 10px;
+}
+
+.main-navigation ul li
+{
+    float:right;
+    background-color:#2F375C;
+}
+
+.head-nav ul li a
+{
+
+    font-weight:600;
+    
+}
